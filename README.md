@@ -13,4 +13,8 @@ consecutives:find_consecutives([1,1,0,1].
 	2
 ```
 
-
+## Left Rotation
+```
+rotate:left_rotation(4,[1,2,3,4,5]).
+	[5,1,2,3,4]
+```
