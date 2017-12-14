@@ -18,3 +18,9 @@ consecutives:find_consecutives([1,1,0,1].
 rotate:left_rotation(4,[1,2,3,4,5]).
 	[5,1,2,3,4]
 ```
+
+## Diagonal Difference
+```
+diagonal:difference([[11,2,4], [4,5,6], [10, 8, -12]]).
+	15
+```
