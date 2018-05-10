@@ -2,6 +2,10 @@
 -author("Leo").
 -export([main/0]).
 
+
+%% Problem
+%% https://www.hackerrank.com/challenges/apple-and-orange/problem
+
 main() ->
     S= 7, 
     T= 11,
