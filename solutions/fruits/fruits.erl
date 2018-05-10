@@ -51,17 +51,3 @@ count_fruits(_S,_T,_A,_B,_M,_N,_Counter,[],MapAcc) ->
     io:fwrite("~w ~n",[Oranges]).
 
 
-
-
-
-%% unir el arreglo de manzanas con el de naranjas 
-%% tener un contador para detener la iteracion este puede ser A + B = Manzanas + Naranjas = Contador
-%% guardar en un mapa el numero de manzanas y naranjas que se encuentran en la casa 
-%% aumentar el contador en el mapa de manzanas/naranjas 
-%% calcular las manzanas que cayeron dentro de la casa con la siguiente operacion 
-%% Primero calculariamos las manzanas 
-%% A - N = RA verificar si esta entre el rango S y T  RA >= S andalso RA <= T si cumple
-%% Entonces se aumentaria el contador apples => C + 1 
-%% Mientras el contador sea menor o igual a M se seguiran contando manzanas, si no es asi 
-%% Se empezara a contar naranjas y cambiara la validacion 
-
